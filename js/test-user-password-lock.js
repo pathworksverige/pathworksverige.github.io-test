@@ -9,7 +9,8 @@ let userInput = "";
 
 if (!isValidUser) {
 
-  document.body.innerHTML = "";
+  document.getElementsByTagName('html').innerHTML = "";
+
   userInput = prompt("Ange lösenord för att se sidan:");
 
   if (userInput !== password || userInput === "") {
