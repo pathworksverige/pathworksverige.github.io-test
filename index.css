@@ -1,0 +1,56 @@
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #212529;
+    z-index: 9999;
+  }
+
+  .navbar-collapse .nav-link,
+  .navbar-collapse .dropdown-item {
+    color: #f8f9fa;
+  }
+
+  .navbar-collapse .nav-link:hover,
+  .navbar-collapse .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #343a40;
+  }
+}
+  
+main {
+  height: 3500px;
+
+}
+
+.quote {
+  font-size: x-large;
+
+}
+
+#painting {
+  max-width: 300px;
+}
+
+.header-box {
+  min-height: 20vw;
+}
+
+#logo {
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+body {
+
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  height: 50px;
+}
