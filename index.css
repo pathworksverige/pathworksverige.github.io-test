@@ -19,7 +19,12 @@
     background-color: #343a40;
   }
 }
-  
+
+.content {
+  background-color: #343a40;
+
+}
+
 main {
   height: 3500px;
 
