@@ -24,6 +24,9 @@
   background-color: #343a40;
 
 }
+p {
+  font-size: x-large;
+}
 
 main {
   height: 3500px;
@@ -36,7 +39,7 @@ main {
 }
 
 #painting {
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .header-box {
